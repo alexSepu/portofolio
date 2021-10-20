@@ -46,7 +46,7 @@ function differenceDay() {
     let date = new Date("2020/09/21");
     let res = now - date;
     res = res / (1000 * 60 * 60 * 24);
-    document.querySelector("#date").innerHTML = date.toLocaleDateString();
+    document.querySelector("#date").innerHTML = now.toLocaleDateString();
     document.querySelector("#difference").innerHTML = Math.floor(res) + " days";
 }
 
