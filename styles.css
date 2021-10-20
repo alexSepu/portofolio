@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+body {
+    background-color: rgb(238, 238, 238);
+    overflow-x: hidden;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+     :root {
+        scroll-behavior: smooth;
+    }
+}
+
+.completeName {
+    font-size: 90px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.firstName {
+    color: gray;
+    font-family: 'Oswald', sans-serif;
+}
+
+section {
+    padding-top: 80px;
+    padding-left: 30px;
+    height: 100vh;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.paragraph {
+    color: grey;
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.phone {
+    color: grey;
+    margin-top: -10px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 760px) {
+    .site {
+        margin-top: 10px !important;
+    }
+    .puesto {
+        text-align: center;
+        margin-left: -60px;
+    }
+    section {
+        margin-left: 5px !important;
+    }
+    .exp {
+        text-align: center;
+    }
+}
+
+.fa-hand-pointer {
+    color: white;
+}
+
+.phone:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.site {
+    color: grey;
+    margin-top: -10px;
+}
+
+.info {
+    margin-top: 200px;
+    margin-left: 40px;
+}
+
+.title {
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
+}
+
+.float {
+    border-radius: 80px;
+    font-size: 30px;
+    width: 60px;
+}
+
+.work {
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+
+.subline {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.subline1 {
+    border: 3px solid rgb(61, 61, 61);
+    width: 150px !important;
+}
+
+.subline2 {
+    border: 3px solid grey;
+    width: 150px !important;
+}
+
+.icon {
+    color: rgb(94, 94, 94);
+}
+
+.tool {
+    font-style: normal !important;
+    margin-top: 10px;
+    color: grey;
+}
+
+.nav-link {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white !important;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.nav-link:hover {
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+.footer {
+    z-index: 99;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.fa-globe {
+    -webkit-animation: 2s rotate linear infinite;
+    animation: 2s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
