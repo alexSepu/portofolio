@@ -39,6 +39,8 @@
         "CAT": "Catalán: Nativo",
         "FR": "Frances: Básico",
         "ES": "Castellano: Nativo",
-        "EN": "Ingles: Intermedio"
+        "EN": "Ingles: Intermedio",
+        "DESC1": "Soy desarrollador de aplicaciones multiplataforma y web buscando poner en practica los conocimientos adquiridos estos últimos años.",
+        "DESC2": "Con ganas de aprender algo nuevo cada día y poder evolucionar como programador."
     }
 }
