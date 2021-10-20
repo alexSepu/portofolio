@@ -37,8 +37,8 @@ section {
 
 .phone {
     color: grey;
-    margin-top: -10px;
     text-decoration: none;
+    margin-bottom: -10px;
 }
 
 @media only screen and (max-width: 760px) {
@@ -164,4 +164,14 @@ section {
     animation: 2s rotate linear infinite;
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
+}
+
+.dropdown-item {
+    font-size: 25px;
+    color: white !important;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.dropdown-item:hover {
+    background-color: grey;
 }
