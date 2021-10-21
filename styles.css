@@ -3,7 +3,6 @@
 body {
     background-color: rgb(238, 238, 238);
     overflow-x: hidden;
-    
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -11,9 +10,11 @@ body {
         scroll-behavior: smooth;
     }
 }
+
 .icon:hover {
     transform: rotate(-2deg) translateY(-5px) scale(1.025);
 }
+
 .completeName {
     font-size: 90px;
     font-family: 'Oswald', sans-serif;
@@ -30,7 +31,6 @@ section {
     height: 100vh;
     width: 100%;
     border-bottom: 1px solid gray;
-    padding-bottom:10px;
 }
 
 .paragraph {
@@ -143,7 +143,6 @@ section {
     text-align: center;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 20px;
-    margin-top:20px;
 }
 
 @keyframes rotate {
@@ -165,8 +164,8 @@ section {
 }
 
 .fa-globe {
-    -webkit-animation: 2s rotate linear infinite;
-    animation: 2s rotate linear infinite;
+    -webkit-animation: 0.1s rotate linear infinite;
+    animation: 0.1s rotate linear infinite;
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
 }
@@ -182,5 +181,13 @@ section {
 }
 
 .formsubmit {
-    margin-bottom: 110px !important;
+    margin-bottom: 110px;
+}
+
+.how {
+    -webkit-animation: 1.5s rotate linear infinite;
+    animation: 1.5s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    animation-iteration-count: 1;
 }

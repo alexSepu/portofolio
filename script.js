@@ -64,8 +64,8 @@ function setLanguage() {
     console.log(lang);
     if (lang != null) {
         let i = 1;   
-        fetch("https://alexsepulvedaweb.netlify.app/lang/lang-" + lang + ".json")
-            //fetch("http://localhost/webEstatica/lang/lang-" + lang + ".json")             
+        //fetch("https://alexsepulvedaweb.netlify.app/lang/lang-" + lang + ".json")
+        fetch("http://localhost/webEstatica/lang/lang-" + lang + ".json")        
             .then((response)  =>  {  return  response.json();  })              
             .then((message)  =>  { 
                 console.log(message["language"]);
