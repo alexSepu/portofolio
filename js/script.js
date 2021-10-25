@@ -38,7 +38,7 @@ function differenceDay() {
     res = res / (1000 * 60 * 60 * 24);
     let array = [];
     array[0] = now.toLocaleDateString();
-    array[0] = Math.floor(res) + " days";
+    array[1] = Math.floor(res) + " days";
     return array;
 }
 

@@ -2,8 +2,9 @@ window.onload = function() {
     setTime();
     changeLanguage();
     Fullyear();
-    setInterval(setTime(), 1000);
+    setInterval(setTime, 1000);
     setLanguage();
+    diff();
 }
 
 function changeLanguage() {
